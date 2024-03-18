@@ -113,7 +113,7 @@ export PYTHONIOENCODING=UTF-8
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Personal NAS
-export NAS_URL=""
-alias nas='aws --endpoint-url $NAS_URL --region ap-northeast-2 s3'
+export NAS_URL="https://minio.bhsn.dev"
+alias bas='aws --endpoint-url https://minio.bhsn.dev --region ap-northeast-2 s3'
 
 export PATH="/home/${USER}/.local/bin:$PATH"
